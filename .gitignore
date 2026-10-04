@@ -2,3 +2,6 @@ node_modules/
 .next/
 data/db.json
 .env*.local
+
+# Local Netlify folder
+.netlify

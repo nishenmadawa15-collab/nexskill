@@ -1,5 +1,19 @@
 # NexSkill
 
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20Auth%20%2B%20RLS-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
+![Matching](https://img.shields.io/badge/Match%20eval-90%25%20precision%20%2F%20recall-56e0c0?style=flat-square)
+
+### Highlights
+
+- 🎯 **Explainable match score** — weighted formula (skills 45% · GPA 20% · preferences 15% · year 10% · certs 10%)
+- 🧠 **3-tier skill similarity** — exact match → curated equivalence table → from-scratch TF-IDF cosine similarity
+- 🧩 **Skill Gap Analyser** with course recommendations
+- 🔐 **Row-Level Security on every table** + role-provisioning signup trigger
+- 👥 **4 roles** — students, companies, universities, admins
+
 Skill-based internship matching platform (CCS2360 Technology Challenge Competition, SLTC Research University).
 
 Students build a skill profile, browse internships ranked by an explainable weighted match score, and apply in one click. Companies post internships and see an automatically ranked candidate list. Universities see placement analytics for their own enrolled students. Admins verify new company/university accounts and moderate postings.
